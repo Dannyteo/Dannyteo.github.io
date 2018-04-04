@@ -1,26 +1,32 @@
-# Dependencies
-highlighter:      rouge
-
 # Permalinks
-permalink:        pretty
+permalink:           pretty
 
 # Setup
-title:            Z.W. Miller
-tagline:          ''
-description:      'A moderately okay data science blog'
-url:              http://zachmetis.github.io
-baseurl:          /
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
 
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
 author:
-  name:           'Zach Miller'
-  url:            https://zwmiller.com
-
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:          2.1.0
-
+version:             2.0.0
 github:
-  repo:           https://github.com/zachMetis/zachmetis.github.io
+  repo:              https://github.com/poole/poole
 
-gems:           [jekyll-paginate, jekyll-gist]
-paginate:         5
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist

@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               Danny Teo
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.github.io
+url:                 http://Dannyteo.github.io
 paginate:            2
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Danny Teo
+  url:               https://twitter.com/teoyongsong
+  email:             teo_yongsong@yahoo.com.sg
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/dannyteo
 
 # Gems
 gems:

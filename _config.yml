@@ -1,6 +1,6 @@
 # Build Settings
 markdown: kramdown
-theme: leap day
+theme: jekyll-theme-dinky
 
 # Permalinks
 permalink:           pretty

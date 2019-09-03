@@ -1,6 +1,6 @@
 # Build Settings
 markdown: kramdown
-theme: minima
+theme: leap day
 
 # Permalinks
 permalink:           pretty

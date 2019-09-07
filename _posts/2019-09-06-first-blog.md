@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Danny Teo Launches Site"
 date: 2019-09-06
 ---

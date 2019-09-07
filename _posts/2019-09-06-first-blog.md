@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Danny Teo, the Not-So-Great Data Scientist"
 date: 2019-09-06
 ---

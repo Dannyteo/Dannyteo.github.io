@@ -4,8 +4,6 @@ title: "Danny Teo, the Not-So-Great Data Scientist"
 date: 2019-09-06
 ---
 
-<h1>Danny Teo, the Not-So-Great Data Scientist</h1>
-
 <ul>
 <p><font size="5">Finally get to explore the creation of a website within github to put all my projects in one place, after completing project 4 today! </font></p>
   <p><font size="5">It comes a long way! </font></p>

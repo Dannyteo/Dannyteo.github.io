@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Danny Teo Launches Site"
+title: "Danny Teo, the Not-So-Great Data Scientist"
 date: 2019-09-06
 ---
 

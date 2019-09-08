@@ -11,6 +11,6 @@ So much to catch up in terms of the new knowledge and skills picked up in the pa
   <p><font size="5">In the next few weeks, I will share all the completed projects here. Just a preview for now:</font></p>
 
 <ul><font size="5">Predicting Condominium and Apartment Prices in Singapore</font></ul>
-<ul>Supervised Learning: Which Customer will be leaving in your next Business Cycle?</ul>
-<ul>Unsupervised Learning: Clustering Movies into 5 main Genres based on their plots.</ul>
-<ul>Passion Project: To be decided soon...</ul>
+<ul><font size="5">Supervised Learning: Which Customer will be leaving in your next Business Cycle?</font></ul>
+<ul><font size="5">Unsupervised Learning: Clustering Movies into 5 main Genres based on their plots.</font></ul>
+<ul><font size="5">Passion Project: To be decided soon...</font></ul>

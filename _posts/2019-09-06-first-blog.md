@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Danny Teo, the Not-So-Great Data Scientist"
+title: "METIS Data Scientist Bootcamp: 75% mark"
 date: 2019-09-06
 ---
 

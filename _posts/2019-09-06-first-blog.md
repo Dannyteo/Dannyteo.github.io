@@ -10,7 +10,7 @@ date: 2019-09-06
 So much to catch up in terms of the new knowledge and skills picked up in the past 9 weeks. Overwhelming!</font></p>
   <p><font size="5">In the next few weeks, I will share all the completed projects here. Just a preview for now:</font></p>
 
-<ul>Predicting Condominium and Apartment Prices in Singapore</ul>
+<ul><fint size="5">Predicting Condominium and Apartment Prices in Singapore</font></ul>
 <ul>Supervised Learning: Which Customer will be leaving in your next Business Cycle?</ul>
 <ul>Unsupervised Learning: Clustering Movies into 5 main Genres based on their plots.</ul>
 <ul>Passion Project: To be decided soon...</ul>

@@ -9,7 +9,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    font-size: 6px;
+    font-size: 15px;
     display: inline;
     margin-right: 20px;
 }

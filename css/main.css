@@ -50,7 +50,7 @@ table {
   color: #333; */
 }
 
-/* thead th:nth-child(1) {
+thead th:nth-child(1) {
   width: 30%;
 }
 
@@ -64,7 +64,7 @@ thead th:nth-child(3) {
 
 thead th:nth-child(4) {
   width: 15%;
-} */
+}
 
 th {
   border: 1px solid black;

@@ -31,14 +31,14 @@ h2{
 }
 
 table {
-    table-layout:auto;
-    width:100%;
+    table-layout:fixed;
+    width:80%;
+     border: 1px solid black;
     font-size: 2em;
     line-height: 1.3em;
     color: #333;
 }
 td {
-  border: 1px solid black;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

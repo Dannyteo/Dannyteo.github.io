@@ -30,7 +30,7 @@ h2{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-table {
+/* table {
     margin: 40px auto;
     width: 80%; 
     table-layout:auto;
@@ -39,8 +39,13 @@ table {
     font-size: 2em;
     line-height: 1.3em;
     color: #333;
+} */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
 }
-
 thead th:nth-child(1) {
   width: 30%;
 }

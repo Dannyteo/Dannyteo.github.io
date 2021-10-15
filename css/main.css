@@ -30,17 +30,18 @@ h2{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+table {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #333;
+}
+
 p {
     font-size: 2em;
     line-height: 1.8em;
     color: #333;
 }
 
-table {
-    font-size: 1.5em;
-    line-height: 1.3em;
-    color: #333;
-}
 
 .listing{
     font-size: 2em;

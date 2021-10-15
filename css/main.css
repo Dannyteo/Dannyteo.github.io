@@ -31,9 +31,16 @@ h2{
 }
 
 table {
+    table-layout:auto;
     font-size: 2em;
     line-height: 1.3em;
     color: #333;
+}
+td {
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 p {

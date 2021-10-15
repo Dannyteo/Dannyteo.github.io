@@ -38,6 +38,12 @@ table {
     line-height: 1.3em;
     color: #333;
 }
+th {
+  border: 1px solid black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+    
 td {
   border: 1px solid black;
   overflow: show;

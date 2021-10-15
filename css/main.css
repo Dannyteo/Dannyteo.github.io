@@ -74,9 +74,9 @@ th {
 
 td {
   border: 1px solid black;
-  overflow: show;
+/*   overflow: show;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; */
 }
 
 th, td {

@@ -36,6 +36,12 @@ p {
     color: #333;
 }
 
+td {
+    font-size: 2em;
+    line-height: 1.8em;
+    color: #333;
+}
+
 .listing{
     font-size: 2em;
 }

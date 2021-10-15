@@ -42,7 +42,7 @@ h2{
 } */
 table {
   table-layout: fixed;
-  width: 80%;
+  width: 100%;
   border-collapse: collapse;
   border: 1px solid black;
   font-size: 2em;

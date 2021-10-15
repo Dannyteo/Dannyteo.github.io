@@ -40,7 +40,7 @@ table {
 }
 td {
   border: 1px solid black;
-  overflow: hidden;
+  overflow: show;
   white-space: nowrap;
   text-overflow: ellipsis;
 }

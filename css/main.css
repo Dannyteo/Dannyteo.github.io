@@ -32,9 +32,8 @@ h2{
 
 table {
     font-size: 2em;
-    //line-height: 1.3em;
+    line-height: 1.3em;
     color: #333;
-    font-weight: bold;
 }
 
 p {

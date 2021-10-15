@@ -31,7 +31,7 @@ h2{
 }
 
 table {
-    table-layout:fixed;
+    table-layout:auto;
     width:80%;
     
     font-size: 2em;

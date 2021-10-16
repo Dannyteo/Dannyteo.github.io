@@ -94,7 +94,7 @@ p {
     font-size: 2em;
 }
 
-ul.joblisting{
+ul,li .joblisting{
     font-size: 1.5em;
 }
 

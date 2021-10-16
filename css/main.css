@@ -51,19 +51,19 @@ table {
 }
 
 thead th:nth-child(1) {
-  width: 35%;
+  width: 30%;
 }
 
 thead th:nth-child(2) {
-  width: 40%;
+  width: 46%;
 }
 
 thead th:nth-child(3) {
-  width: 12.5%;
+  width: 12%;
 }
 
 thead th:nth-child(4) {
-  width: 12.5%;
+  width: 12%;
 }
 
 th {
@@ -93,6 +93,11 @@ p {
 .listing{
     font-size: 2em;
 }
+
+.joblisting{
+    font-size: 1.5em;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;

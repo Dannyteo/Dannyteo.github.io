@@ -9,5 +9,5 @@ for (let i = 1; i <= 898; i++) {
     newImg.src = `${baseUrl}${i}.png`;
     pokemon.appendChild(newImg);
     pokemon.appendChild(label);
-    conatiner.appendChild(pokemon);
+    container.appendChild(pokemon);
 }

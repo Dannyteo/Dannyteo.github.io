@@ -10,3 +10,4 @@ for (let i = 1; i <= 898; i++) {
     pokemon.appendChild(newImg);
     pokemon.appendChild(label);
     conatiner.appendChild(pokemon);
+}

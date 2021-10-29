@@ -1,4 +1,4 @@
-const conatiner = document.querySelector('#container');
+const container = document.querySelector('#container');
 const baseUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
 for (let i = 1; i <= 898; i++) {

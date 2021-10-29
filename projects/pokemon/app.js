@@ -1,19 +1,19 @@
-const btn = document.querySelector('#v2');
-btn.onclick = function () {
-    console.log('You clicked me!');
-    console.log('I hope it works!');
-}
+// const btn = document.querySelector('#v2');
+// btn.onclick = function () {
+//     console.log('You clicked me!');
+//     console.log('I hope it works!');
+// }
 
-function scream() {
-    console.log('aaaaaaaaaaahhhh!!!');
-    console.log('Stop it!!!');
-}
+// function scream() {
+//     console.log('aaaaaaaaaaahhhh!!!');
+//     console.log('Stop it!!!');
+// }
 
-btn.onmouseenter = scream;
-const btn3 = document.querySelector('#v3');
-btn3.addEventListener('dblclick', function () {
-    alert('Clicked!');
-})
+// btn.onmouseenter = scream;
+// const btn3 = document.querySelector('#v3');
+// btn3.addEventListener('dblclick', function () {
+//     alert('Clicked!');
+// })
 
 const conatiner = document.querySelector('#container');
 const baseUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';

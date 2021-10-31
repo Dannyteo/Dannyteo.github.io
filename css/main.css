@@ -24,7 +24,7 @@ nav {
   width: 100%; /* Full width */
 }
 
-nav ul, a {
+nav ul {
     float: left;
     display: block;
     color: #f2f2f2;

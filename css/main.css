@@ -11,6 +11,7 @@ body {
 }
 
 nav ul, footer ul {
+    overflow: hidden;
     position:fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
@@ -20,6 +21,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
+    bottom: 0;
     font-size: 1.5em;
     display: inline;
     margin-right: 10px;

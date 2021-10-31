@@ -11,11 +11,18 @@ body {
   width: 70%;
 }
 
-nav ul, footer ul {
+nav ul {
     overflow: hidden;
     position:fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;

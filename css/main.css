@@ -3,10 +3,6 @@ body {
     width: 80%;  
 }
 
-.container{
-    margin-top: 50px;
-}
-
 .center {
   display: block;
   text-align: left;
@@ -34,6 +30,10 @@ nav ul {
 /*     padding: 0px; */
     list-style: none;
     font-weight: bold;
+}
+
+.container{
+    margin-top: 50px;
 }
 
 nav ul, footer ul {

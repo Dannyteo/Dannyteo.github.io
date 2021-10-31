@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-    top: 30px;
+    top: 50px;
 }
 
 .center {
@@ -16,7 +16,7 @@ body {
 }
 
 nav ul {
-/*     overflow: hidden; */
+    overflow: hidden;
     background-color: #333;
     position:fixed;
     top: 0; /* Position the navbar at the top of the page */

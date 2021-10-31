@@ -15,12 +15,19 @@ body {
   width: 70%;
 }
 
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
 nav ul {
-    overflow: hidden;
-    background-color: #333;
-    position:fixed;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 80%; 
+    float: left;
+    display: block;
+    color: #f2f2f2;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
     padding: 14px 16px;

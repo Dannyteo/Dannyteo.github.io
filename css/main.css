@@ -11,6 +11,7 @@ body {
 }
 
 nav ul, footer ul {
+    position:fixed;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;

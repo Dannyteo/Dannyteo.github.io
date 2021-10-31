@@ -12,6 +12,8 @@ body {
 
 nav ul, footer ul {
     position:fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;

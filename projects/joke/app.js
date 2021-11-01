@@ -7,7 +7,7 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-delayedColorChange('red', 1000)
+async delayedColorChange('red', 1000)
     await delayedColorChange('orange', 1000))
     await delayedColorChange('yellow', 1000))
     await delayedColorChange('green', 1000))

@@ -16,13 +16,13 @@ const delayedColorChange = (color, delay) => {
 //      delayedColorChange('violet', 1000)
 
 async function rainbow() {
-     await delayedColorChange('red', 2000)
-     await delayedColorChange('orange', 2000)
-     await delayedColorChange('yellow', 2000)
-     await delayedColorChange('green', 2000)
-     await delayedColorChange('blue', 2000)
-     await delayedColorChange('indigo', 2000)
-     await delayedColorChange('violet', 2000)
+     await delayedColorChange('red', 500)
+     await delayedColorChange('orange', 500)
+     await delayedColorChange('yellow', 500)
+     await delayedColorChange('green', 500)
+     await delayedColorChange('blue', 500)
+     await delayedColorChange('indigo', 500)
+     await delayedColorChange('violet', 500)
      return ('All done!')
  }
 

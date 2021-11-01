@@ -7,23 +7,24 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-delayedColorChange('red', 1000)
-     delayedColorChange('orange', 1000)
-     delayedColorChange('yellow', 1000)
-     delayedColorChange('green', 1000)
-     delayedColorChange('blue', 1000)
-     delayedColorChange('indigo', 1000)
-     delayedColorChange('violet', 1000)
-// async function rainbow() {
-//      await delayedColorChange('red', 2000)
-//      await delayedColorChange('orange', 2000)
-//      await delayedColorChange('yellow', 2000)
-//      await delayedColorChange('green', 2000)
-//      await delayedColorChange('blue', 2000)
-//      await delayedColorChange('indigo', 2000)
-//      await delayedColorChange('violet', 2000)
-//      return ('All done!')
-//  }
+// delayedColorChange('red', 1000)
+//      delayedColorChange('orange', 1000)
+//      delayedColorChange('yellow', 1000)
+//      delayedColorChange('green', 1000)
+//      delayedColorChange('blue', 1000)
+//      delayedColorChange('indigo', 1000)
+//      delayedColorChange('violet', 1000)
+
+async function rainbow() {
+     await delayedColorChange('red', 2000)
+     await delayedColorChange('orange', 2000)
+     await delayedColorChange('yellow', 2000)
+     await delayedColorChange('green', 2000)
+     await delayedColorChange('blue', 2000)
+     await delayedColorChange('indigo', 2000)
+     await delayedColorChange('violet', 2000)
+     return ('All done!')
+ }
 
 //  rainbow().then(() => console.log('End of rainbow'))
 

@@ -1,11 +1,11 @@
-// const delayedColorChange = (color, delay) => {
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             document.body.style.backgroundColor = color;
-//             resolve();
-//         }, delay)
-//     })
-// }
+const delayedColorChange = (color, delay) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            document.body.style.backgroundColor = color;
+            resolve();
+        }, delay)
+    })
+}
 
 async function rainbow() {
      await delayedColorChange('red', 2000)

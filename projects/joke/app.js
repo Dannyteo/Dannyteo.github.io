@@ -26,6 +26,8 @@ async function rainbow() {
      return ('All done!')
  }
 
+rainbow();
+
 //  rainbow().then(() => console.log('End of rainbow'))
 
 // const fetchBitcoinPrice = async () => {

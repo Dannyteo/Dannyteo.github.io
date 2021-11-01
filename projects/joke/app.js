@@ -7,28 +7,35 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-async function rainbow() {
-     await delayedColorChange('red', 2000)
-     await delayedColorChange('orange', 2000)
-     await delayedColorChange('yellow', 2000)
-     await delayedColorChange('green', 2000)
-     await delayedColorChange('blue', 2000)
-     await delayedColorChange('indigo', 2000)
-     await delayedColorChange('violet', 2000)
-     return ('All done!')
- }
+delayedColorChange('red', 2000)
+    await delayedColorChange('orange', 2000))
+    await delayedColorChange('yellow', 2000))
+    await delayedColorChange('green', 2000))
+    await delayedColorChange('blue', 2000))
+    await delayedColorChange('indigo', 2000))
+    await delayedColorChange('violet', 2000))
+// async function rainbow() {
+//      await delayedColorChange('red', 2000)
+//      await delayedColorChange('orange', 2000)
+//      await delayedColorChange('yellow', 2000)
+//      await delayedColorChange('green', 2000)
+//      await delayedColorChange('blue', 2000)
+//      await delayedColorChange('indigo', 2000)
+//      await delayedColorChange('violet', 2000)
+//      return ('All done!')
+//  }
 
- rainbow().then(() => console.log('End of rainbow'))
+//  rainbow().then(() => console.log('End of rainbow'))
 
-const fetchBitcoinPrice = async () => {
-    try {
-        const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd');
-        console.log(res.data.ticker.price);
-    } catch (e) {
-        console.log('ERR!', e)
+// const fetchBitcoinPrice = async () => {
+//     try {
+//         const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd');
+//         console.log(res.data.ticker.price);
+//     } catch (e) {
+//         console.log('ERR!', e)
 
-    }
-}
+//     }
+// }
 const jokes = document.querySelector('#joke');
 const button = document.querySelector('button');
 

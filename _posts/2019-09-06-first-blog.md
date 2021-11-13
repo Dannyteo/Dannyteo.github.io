@@ -11,3 +11,4 @@ date: 2019-09-06
 <ul>Unsupervised Learning: Clustering Movies into 5 main Genres based on their plots.</ul>
 <ul>Passion Project: To be decided soon...</ul>
 <p>#MadeAtMetis</p>
+<p>@thisismetis</p>

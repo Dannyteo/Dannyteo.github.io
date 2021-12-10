@@ -35,10 +35,10 @@ nav ul {
     font-weight: bold;
 }
  
-/* .container{
+.container{
     margin-top: 120px;
 }
- */
+ 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

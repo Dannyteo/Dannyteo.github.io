@@ -18,12 +18,12 @@ body {
 }
 
 /* The navigation bar */
-/* nav {
+ nav {
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
 /*   top: 0; /* Position the navbar at the top of the page */
-/*   width: 80%; 
+   width: 80%; 
 }
 
 nav ul {
@@ -33,7 +33,7 @@ nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
-} */ 
+}
  
 /* .container{
     margin-top: 120px;

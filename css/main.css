@@ -18,7 +18,7 @@ body {
 }
 
 /* The navigation bar */
-nav {
+/* nav {
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
@@ -34,7 +34,7 @@ nav ul {
     list-style: none;
     font-weight: bold;
 }
-
+ */
 .container{
     margin-top: 120px;
 }

@@ -1,2 +1,2 @@
-[submodule "default"]
-	path = include/_layouts
+[submodule "_layouts"]
+	path = include/default.html

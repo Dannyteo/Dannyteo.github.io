@@ -1,4 +1,4 @@
 [submodule "_layouts"]
-    path = _layouts
+    path = /_layouts
     url = https://github.com/Dannyteo.github.io/_layouts
     branch = master

@@ -1,4 +1,4 @@
 [submodule "Dannyteo.github.io"]
-    path = /dannyteo.github.io
-    url = https://github.com/dannyteo
+    path = /_layouts
+    url = https://dannyteo.github.io
     branch = master

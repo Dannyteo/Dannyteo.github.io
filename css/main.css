@@ -48,13 +48,13 @@ nav ul, footer ul {
     font-weight: bold;
     text-align: center;
     padding: 14px 16px;
-}
+} */
 nav ul li, footer ul li {
     bottom: 0;
     font-size: 1.5em;
     display: inline;
     margin-right: 10px;
-} */
+} 
 a {
     text-decoration: none;
     color: #999;

@@ -39,7 +39,7 @@ nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
-}  
+}  */
  
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -48,10 +48,10 @@ nav ul, footer ul {
     font-weight: bold;
     text-align: center;
     padding: 14px 16px;
-} */
+} 
 nav ul li {
     bottom: 0;
-    font-size: 2em;
+    font-size: 2.5em;
     display: inline;
     margin-right: 10px;
 }

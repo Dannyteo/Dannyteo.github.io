@@ -110,12 +110,12 @@ thead th:nth-child(2) {
 }
 
 thead th:nth-child(3) {
-  width: 13%;
+  width: 26%;
 }
 
-thead th:nth-child(4) {
+/*thead th:nth-child(4) {
   width: 13%;
-}
+}*/
 
 th {
   border: 1px solid black;

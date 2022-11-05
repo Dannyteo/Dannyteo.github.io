@@ -52,7 +52,7 @@ const addNewJoke = async () => {
 
 const getDadJoke = async () => {
     try {
-        const config = { headers: { accept: 'application/json' } };
+        const config = { headers: { accept: 'application' } };
         const res = await axios.get('https://icanhazdadjoke.com/', config);
         //console.log(res.data.joke);
         return res.data.joke;

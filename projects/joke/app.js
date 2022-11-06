@@ -54,7 +54,7 @@ const getDadJoke = async () => {
     try {
         const config = { headers: { accept: 'application/json' } };
         const res = await axios.get('https://icanhazdadjoke.com/', config);
-        //console.log(res.data.joke);
+        console.log(res.data.joke);
         return res.data.joke;
     } catch (e) {
         return "No joke available. Sorry!"

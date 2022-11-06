@@ -11,7 +11,7 @@ const addNewJoke = async () => {
 
 const getDadJoke = async () => {
     try {
-        const config = { headers: { Accept: 'application/json' } };
+        const config = { headers: {"Accept: application/json"} };
         const res = await axios.get('https://icanhazdadjoke.com/');
         // 'https://icanhazdadjoke.com/', config);
         //console.log(res.data.joke);

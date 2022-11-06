@@ -11,10 +11,9 @@ const addNewJoke = async () => {
 
 
 const getDadJoke = async () => {
-	const res = await axios.get(
-		`https://icanhazdadjoke.com/`
+	const res = await axios.get(`https://icanhazdadjoke.com/`);
         return res.data.joke;
-	)catch (e) {
+	}catch (e) {
         return "No joke available. Sorry!"
     }
 };

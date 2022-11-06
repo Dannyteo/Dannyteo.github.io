@@ -10,7 +10,7 @@ const addNewJoke = async () => {
 }
 
 
-const getDad/joke = async () => {
+const getDadJoke = async () => {
 	const res = await axios.get(
 		`https://icanhazdadjoke.com/`
         return res.data.joke;

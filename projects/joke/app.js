@@ -20,17 +20,6 @@ async function rainbow() {
 
 rainbow();
 
-//  rainbow().then(() => console.log('End of rainbow'))
-
-// const fetchBitcoinPrice = async () => {
-//     try {
-//         const res = await axios.get('https://api.cryptonator.com/api/ticker/btc-usd');
-//         console.log(res.data.ticker.price);
-//     } catch (e) {
-//         console.log('ERR!', e)
-
-//     }
-// }
 const jokes = document.querySelector('#joke');
 const button = document.querySelector('button');
 
@@ -44,7 +33,7 @@ const addNewJoke = async () => {
 
 const getDadJoke = async () => {
 	try{
-		const config = { headers: { accept: 'application/json' } };
+		const config = { headers: { accept: "application/json" } };
 		const res = await axios.get("https://icanhazdadjoke.com/", config);
         	return res.data.joke;
 	}catch (e) {

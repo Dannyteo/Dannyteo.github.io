@@ -9,7 +9,17 @@ const addNewJoke = async () => {
     jokes.append(newLI);
 }
 
-const getDadJoke = async () => {
+
+const getDad/joke = async () => {
+	const res = await axios.get(
+		`https://icanhazdadjoke.com/`
+        return res.data.joke;
+	)catch (e) {
+        return "No joke available. Sorry!"
+    }
+};
+
+/*const getDadJoke = async () => {
     try {
         const config = { headers: { accept: 'application/json' } };
         //const config = { headers: {accept: 'application/json'}};
@@ -21,6 +31,6 @@ const getDadJoke = async () => {
         return "No joke available. Sorry!"
     }
 
-}
+} */
 
 button.addEventListener('click', addNewJoke);

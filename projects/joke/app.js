@@ -7,14 +7,6 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-// delayedColorChange('red', 1000)
-//      delayedColorChange('orange', 1000)
-//      delayedColorChange('yellow', 1000)
-//      delayedColorChange('green', 1000)
-//      delayedColorChange('blue', 1000)
-//      delayedColorChange('indigo', 1000)
-//      delayedColorChange('violet', 1000)
-
 async function rainbow() {
      await delayedColorChange('red', 500)
      await delayedColorChange('orange', 500)
@@ -53,7 +45,7 @@ const addNewJoke = async () => {
 const getDadJoke = async () => {
     try {
         const config = { headers: { accept: 'application/json' } };
-        const res = await axios.get('https://icanhazdadjoke.com/', config);
+        const res = await axios.get("https://icanhazdadjoke.com/", config);
         console.log(res.data.joke);
         return res.data.joke;
     } catch (e) {

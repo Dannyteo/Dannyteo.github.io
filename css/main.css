@@ -54,7 +54,7 @@ nav ul li {
     font-size: 2em;
     display: inline;
     margin-right: 10px;
-    position: fixed;
+    //position: fixed;
 }
 
 footer ul li {
@@ -62,7 +62,7 @@ footer ul li {
     font-size: 1.5em;
     display: inline;
     margin-right: 10px;
-    position: fixed;
+    //position: fixed;
 } 
 
 a {

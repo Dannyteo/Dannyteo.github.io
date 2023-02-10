@@ -50,6 +50,7 @@ nav ul, footer ul {
     padding: 14px 16px;
 } 
 nav ul li {
+    position: fixed;
     bottom: 0;
     font-size: 2em;
     display: inline;

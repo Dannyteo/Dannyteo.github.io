@@ -187,7 +187,7 @@ ul.posts li {
 
 /* Navbar links */
 #navbar a {
-  float: left;
+  /*float: left;*/
   display: block;
   color: #f2f2f2;
   text-align: center;

@@ -60,7 +60,20 @@
 	<div class="container">
 		{{ content }}	
 	</div><!-- /.container -->
-	
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbarNavDropdown");
+	var sticky = navbarNavDropdown.offsetTop;
+
+	function myFunction() {
+  		if (window.pageYOffset >= sticky) {
+   			navbar.classList.add("sticky")
+  		} else {
+    			navbar.classList.remove("sticky");
+  		}
+	}
+	</script>
 	<footer>
 		<ul>
 	        <li><a href="mailto:teo_yongsong@yahoo.com.sg">email:teo_yongsong@yahoo.com.sg</a></li>

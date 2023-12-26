@@ -13,15 +13,6 @@
 </style>
 
 <body>
-	<!--<div id="navbar">
-		<a href="/">Danny Teo</a>
-  		<a href="/about">about</a>
-  		<a href="/credentials">credentials</a>
-		<a href="/clients">clients</a>
-		<a href="/speaking">speaking</a>
-		<a href="/training">training</a>
-		<a href="/consulting">consulting</a>
-	</div>-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<a class="navbar-brand mb-0 h1" href="/">Danny Teo </a>
   	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" 
@@ -30,13 +21,7 @@
   	</button>
 	<div class="collapse navbar-collapse" id="navbar">
     	<ul class="navbar-nav">
-      		<!--<li class="nav-item active">
-        	<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      		 /li> 
       		<li class="nav-item">
-        	<a class="nav-link" href="/">Danny Teo<span class="sr-only">(current)</span></a>
-      		</li>-->
-		<li class="nav-item">
         	<a class="nav-link" href="/about">about</a>
       		</li>
 		<li class="nav-item">
@@ -72,20 +57,7 @@
 	<div class="container">
 		{{ content }}	
 	</div>
-	<script>
-	window.onscroll = function() {myFunction()};
-
-	var navbar = document.getElementById("navbar");
-	var sticky = navbar.offsetTop;
-
-	function myFunction() {
-  		if (window.pageYOffset >= sticky) {
-   			navbar.classList.add("sticky")
-  		} else {
-    			navbar.classList.remove("sticky");
-  		}
-	}
-	</script>
+	
 	<footer>
 		<ul>
 	        <li><a href="mailto:teo_yongsong@yahoo.com.sg">email:teo_yongsong@yahoo.com.sg</a></li>

@@ -4,7 +4,7 @@
 
 body {
     margin: 40px auto;
-    width: 100%;  
+    width: 80%;  
 }
 
 .center1 {
@@ -193,7 +193,7 @@ ul.posts li {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  width: 100%
+  width: 80%
 }
 
 /* Page content */

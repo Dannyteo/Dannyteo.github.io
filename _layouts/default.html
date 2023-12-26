@@ -59,12 +59,12 @@
  			
 	<div class="container">
 		{{ content }}	
-	</div><!-- /.container -->
+	</div>
 	<script>
 	window.onscroll = function() {myFunction()};
 
 	var navbar = document.getElementById("navbarNavDropdown");
-	var sticky = navbarNavDropdown.offsetTop;
+	var sticky = navbar.offsetTop;
 
 	function myFunction() {
   		if (window.pageYOffset >= sticky) {

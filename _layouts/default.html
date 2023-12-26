@@ -56,14 +56,18 @@
   	</div>
 	
 	</nav>
- 			
+ 	<div id="navbartest">
+		<a href="#home">Home</a>
+  		<a href="#news">News</a>
+  		<a href="#contact">Contact</a>
+	</div>		
 	<div class="container">
 		{{ content }}	
 	</div>
 	<script>
 	window.onscroll = function() {myFunction()};
 
-	var navbar = document.getElementById("navbar");
+	var navbar = document.getElementById("navbartest");
 	var sticky = navbar.offsetTop;
 
 	function myFunction() {

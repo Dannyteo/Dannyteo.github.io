@@ -3,12 +3,15 @@ layout: default
 title: Clients
 ---
 
-<script type="text/python">
-    # Python code here
-    print("Hello, World!")
-    print("Hello, World!")
-    print("Hello, World!")
-</script>
+<body>
+    <h1>{{ title }}</h1>
+    <p>{{ greeting }}, {{ name }}!</p>
+    <ul>
+      {% for item in items %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+</body>
 
 <h2><font color="blue">Upcoming engagements (As of 17th July 2024)</font></h2>
 

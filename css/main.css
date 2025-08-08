@@ -25,7 +25,7 @@ body {
 }
 
 /* /* The navigation bar */
- nav {
+ nav navbar navbar-expand-lg navbar-dark bg-dark{
   overflow: hidden;
   background-color: #333;
   position: fixed; 

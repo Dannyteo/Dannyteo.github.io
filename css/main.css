@@ -15,6 +15,10 @@ body {
   width: 80%;
 }
 
+.logo {
+    width:50;
+    height:50;
+}
 .center {
   display: block;
   text-align: center;

@@ -20,6 +20,9 @@
   --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
   --prose-max: 42rem;
   --table-max: min(100%, 72rem);
+  /* One column for nav + body + footer — matches across all pages */
+  --content-max: 72rem;
+  --content-pad-x: clamp(1rem, 4vw, 1.75rem);
 }
 
 *,
@@ -114,8 +117,103 @@ body {
   padding: clamp(1.75rem, 4vw, 3rem) 0 clamp(3rem, 6vw, 5rem);
 }
 
+/* Single content shell: same width & horizontal padding as nav + footer */
+.site-header .container-xl,
+.site-footer .container-xl,
+main.page-main .container-xl.content-wrap {
+  width: 100%;
+  max-width: min(100%, var(--content-max));
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--content-pad-x);
+  padding-right: var(--content-pad-x);
+  box-sizing: border-box;
+}
+
 .content-wrap {
-  max-width: 72rem;
+  max-width: min(100%, var(--content-max));
+}
+
+/* Prose blocks: keep readable measure but center in the content column */
+main.page-main .container-xl.content-wrap > p,
+main.page-main .container-xl.content-wrap > h1,
+main.page-main .container-xl.content-wrap > h2,
+main.page-main .container-xl.content-wrap > h3,
+main.page-main .container-xl.content-wrap > h4 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--prose-max);
+}
+
+main.page-main .container-xl.content-wrap > ul.listing,
+main.page-main .container-xl.content-wrap > ul.posts,
+main.page-main .container-xl.content-wrap > ul.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main.page-main .container-xl.content-wrap > .blurb:not(.hero-home) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main.page-main .container-xl.content-wrap > .blurb.hero-home {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100%, 56rem);
+}
+
+main.page-main .container-xl.content-wrap > table {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100%, var(--table-max));
+}
+
+main.page-main .container-xl.content-wrap > .contact-form-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 52rem;
+}
+
+main.page-main .container-xl.content-wrap > .post {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--prose-max);
+}
+
+main.page-main .container-xl.content-wrap > p.meta {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--prose-max);
+}
+
+main.page-main .container-xl.content-wrap td p,
+main.page-main .container-xl.content-wrap th p {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+
+main.page-main .container-xl.content-wrap .credential-summary p {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+
+/* Media / embeds: block + centered in content column */
+main.page-main .container-xl.content-wrap > iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(100%, 56rem);
+}
+
+main.page-main .container-xl.content-wrap > img.center,
+main.page-main .container-xl.content-wrap > picture {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Legacy layout helpers */
@@ -547,8 +645,8 @@ footer ul li {
 
 /* Contact page — embedded Google Form */
 .contact-form-wrap {
-  max-width: 52rem;
-  margin: 2rem auto 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-form__title {

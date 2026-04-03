@@ -1,1 +1,46 @@
 _site/
+
+# --- Dependencies / package managers (local installs; not part of this static site) ---
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+# --- Python (caches, venvs, local env files) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Logs & temp ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+
+# --- Local-only scripts / scratch (not part of the published site) ---
+*.local.sh
+*.local.py
+scratch/
+
+# Note: the nested submodule at Dannyteo.github.io/ is tracked via .gitmodules.
+# To stop using it, remove the submodule with git (deinit / rm), not gitignore.

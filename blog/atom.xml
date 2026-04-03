@@ -1,27 +1,26 @@
----
-layout: feed
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
 	<title>Danny Teo's Blog</title>
-	<link href="http://Dannyteo.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://Dannyteo.github.io/blog"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://Dannyteo.github.io/blog</id>
+	<link href="https://dannyteo.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://dannyteo.github.io/blog.html"/>
+	<updated>2021-07-21T00:00:00Z</updated>
+	<id>https://dannyteo.github.io/blog.html</id>
 	<author>
 		<name>Danny Teo</name>
-		<email>teo_yongsongsong@yahoo.com.sg</email>
+		<email>teo_yongsong@yahoo.com.sg</email>
 	</author>
-
-	{% for post in site.posts %}
-		<entry>
-			<title>{{ post.title }}</title>
-			<link href="http://Dannyteo.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://Dannyteo.github.io{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
-		</entry>
-	{% endfor %}
-
+	<entry>
+		<title>METIS Data Scientist Bootcamp: 75% mark</title>
+		<link href="https://dannyteo.github.io/blog/2019-09-06-first-blog.html"/>
+		<updated>2019-09-06T00:00:00Z</updated>
+		<id>https://dannyteo.github.io/blog/2019-09-06-first-blog.html</id>
+		<content type="html"><![CDATA[<p>Blog post (see site).</p>]]></content>
+	</entry>
+	<entry>
+		<title>Revisit This website After Almost 2 Years!</title>
+		<link href="https://dannyteo.github.io/blog/2021-07-21-revisit.html"/>
+		<updated>2021-07-21T00:00:00Z</updated>
+		<id>https://dannyteo.github.io/blog/2021-07-21-revisit.html</id>
+		<content type="html"><![CDATA[<p>Blog post (see site).</p>]]></content>
+	</entry>
 </feed>

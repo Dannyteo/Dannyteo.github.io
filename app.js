@@ -8,10 +8,10 @@
 		'<div class="container-xl">' +
 		'<div class="site-footer__inner">' +
 		'<p class="site-footer__text">' +
-		'<a href="mailto:teo_yongsong@yahoo.com.sg">dannyteo@27svs.com</a>' +
+		'© 2019 <a href="https://dannyteo.github.io/">dannyteo.github.io</a> All rights reserved.' +
 		"</p>" +
 		'<p class="site-footer__extra">' +
-		'<a href="https://teoyongsong.github.io/" target="_blank" rel="noopener noreferrer">Software development projects · teoyongsong.github.io</a>' +
+		'Software Project: <a href="https://teoyongsong.github.io/" target="_blank" rel="noopener noreferrer">teoyongsong.github.io</a>' +
 		"</p>" +
 		"</div>" +
 		"</div>";

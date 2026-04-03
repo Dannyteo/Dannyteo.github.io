@@ -687,11 +687,6 @@ iframe[src*="calendar.google.com"] {
   font-weight: 500;
 }
 
-.site-footer__host {
-  color: var(--color-text-muted);
-  font-weight: 400;
-}
-
 .site-footer a {
   font-weight: 500;
 }
